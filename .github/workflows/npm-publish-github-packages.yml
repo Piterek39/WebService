@@ -30,6 +30,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
+          scope: '@Piterek39'
       - run: npm ci
       - run: node index.js
         env:
