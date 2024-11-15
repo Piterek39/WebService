@@ -32,6 +32,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@Piterek39'
       - run: npm ci
-      - run: node index.js
+      - run: npm start
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
